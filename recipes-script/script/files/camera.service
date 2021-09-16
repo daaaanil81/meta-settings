@@ -1,0 +1,11 @@
+[Unit]
+Description=Camera service
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=/usr/bin/camera_daemon &
+
+[Install]
+WantedBy=multi-user.target
+

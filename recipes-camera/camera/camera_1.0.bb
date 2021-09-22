@@ -11,7 +11,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=1086bcb06321954f187efe031bdd856c"
 
 SRC_URI = "git://github.com/daaaanil81/CameraWebRTC.git;protocol=https"
-SRCREV = "0d95683fbe2d809d276ad04ee9934974f43fc488"
+SRCREV = "1a4cb6e8248ccd25112f0b259a918c737af7a68f"
 UPSTREAM_CHECK_COMMITS = "1"
 
 GO_IMPORT = "github.com/daaaanil81/CameraWebRTC"

@@ -10,6 +10,10 @@ DEPENDS = "vlc go"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=1086bcb06321954f187efe031bdd856c"
 
+DEPENDS += "\
+	golang-x \
+"
+
 SRC_URI = "git://github.com/daaaanil81/CameraWebRTC.git;protocol=https"
 SRCREV = "1a4cb6e8248ccd25112f0b259a918c737af7a68f"
 UPSTREAM_CHECK_COMMITS = "1"
